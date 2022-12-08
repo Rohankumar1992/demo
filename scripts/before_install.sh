@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user/php
+cd /var/www/html
 composer install
