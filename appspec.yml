@@ -5,8 +5,8 @@ version: 0.0
 os: linux
 
 files:
-  - source: ./
-    destination: /home/ec2-user/phpserver
+  - source: /
+    destination: /var/www
     overwrite: true
 
 hooks:
