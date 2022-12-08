@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user/server
+cd /home/ec2-user/php
 php -S 0.0.0.0:8000 -t web/
