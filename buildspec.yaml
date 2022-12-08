@@ -1,8 +1,15 @@
-version: 0.1
+version: 0.2
 phases:
   pre_build:
     commands:
-      - composer install
+      #installs dependencies into the node_modules/ directory
   build:
     commands:
-      - phpunit tests
+      - echo Build started on date
+  post_build:
+    commands:
+      - echo Build completed on date
+# Include only the files required for your application to run.
+artifacts:
+  files:
+    - "**/*"
