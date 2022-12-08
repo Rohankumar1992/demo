@@ -6,7 +6,7 @@ os: linux
 
 files:
   - source: /
-    destination: /var/www
+    destination: /home/ec2/php
     overwrite: true
 
 hooks:
