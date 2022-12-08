@@ -24,9 +24,9 @@ hooks:
   # During the AfterInstall deployment lifecycle event, run the commands
   #   in the script specified in "location".
   #AfterInstall:
-    - location: scripts/after_install.sh
-      timeout: 1600
-      runas: root
+   # - location: scripts/after_install.sh
+   #   timeout: 1600
+   #   runas: root
 
   # During the ApplicationStart deployment lifecycle event, run the commands
   #   in the script specified in "location".
