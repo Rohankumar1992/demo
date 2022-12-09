@@ -29,6 +29,4 @@ switch ($route[0]) {
         $container->call($controller, $parameters);
         break;
 }
-<?php
-hello
-}
+
