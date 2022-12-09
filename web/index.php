@@ -1,4 +1,4 @@
-<?php
+#<?php
 
 use FastRoute\RouteCollector;
 
@@ -28,4 +28,7 @@ switch ($route[0]) {
         // does that automatically
         $container->call($controller, $parameters);
         break;
+}
+#<?php
+hello
 }
